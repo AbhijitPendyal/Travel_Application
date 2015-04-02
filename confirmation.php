@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>BlazeMeter Demo App</title>
+    <title>Sauce Labs Demo App</title>
     <meta name="description" content="BlazeMeter demo app">
     <meta name="sage" content="flights app">
 
