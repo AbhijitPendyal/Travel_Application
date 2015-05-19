@@ -22,14 +22,28 @@ caps4['platform'] = 'Windows 8.1'
 caps4['version'] = '11.0'
 caps4["name"] = "Selenium on Sauce on IE11Win8.1"
 
-caps5 = Selenium::WebDriver::Remote::Capabilities.iphone
-caps5['platform'] = 'OS X 10.10'
-caps5['version'] = '8.1'
-caps5['deviceName'] = 'iPhone Simulator'
-caps5['device-orientation'] = 'portrait'
-caps5["name"] = "Sauce on iPhone!"
+caps5 = Selenium::WebDriver::Remote::Capabilities.firefox
+caps5['platform'] = 'Linux'
+caps5['version'] = 'beta'
+caps5["name"] = "Selenium on Sauce on Linux"
 
-caps = [caps1, caps2, caps3, caps4, caps5]
+caps6 = Selenium::WebDriver::Remote::Capabilities.chrome
+caps6['platform'] = 'Windows XP'
+caps6['version'] = '40.0'
+caps6["name"] = "Testing made awesome on WinXP"
+
+caps7 = Selenium::WebDriver::Remote::Capabilities.safari
+caps7['platform'] = 'OS X 10.8'
+caps7['version'] = '6.0'
+caps7["name"] = "Running sauce on Mac 10.8"
+
+caps8 = Selenium::WebDriver::Remote::Capabilities.internet_explorer
+caps8['platform'] = 'Windows 8'
+caps8['version'] = '10.0'
+caps8["name"] = "Let's try on IE10"
+
+
+caps = [caps1, caps2, caps3, caps4, caps5, cap6, caps7, caps8]
 
 caps.peach do |cap|
 driver = Selenium::WebDriver.for(:remote,
