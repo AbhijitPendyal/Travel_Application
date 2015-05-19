@@ -43,7 +43,7 @@ caps8['version'] = '10.0'
 caps8["name"] = "Let's try on IE10"
 
 
-caps = [caps1, caps2, caps3, caps4, caps5, cap6, caps7, caps8]
+caps = [caps1, caps2, caps3, caps4, caps5, caps6, caps7, caps8]
 
 caps.peach do |cap|
 driver = Selenium::WebDriver.for(:remote,
