@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Simple Flights App</title>
-    <meta name="description" content="BlazeMeter demo app">
+    <meta name="description" content="Sauce Labs demo app">
     <meta name="sage" content="flights app">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
