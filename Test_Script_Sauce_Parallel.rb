@@ -1,4 +1,4 @@
-nrequire 'rubygems'
+require 'rubygems'
 require 'peach'
 require 'selenium-webdriver'
 
